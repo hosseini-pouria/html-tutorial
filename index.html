@@ -1,11 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        body{
+            font-family: Tahoma;
+        }
+
+        table{
+            width: 100%;
+            text-align: right;
+            border-collapse: collapse;
+        }
+
+        th,td{
+            border: 1px solid black;
+            padding: 16px;
+        }
+
+        thead{
+            text-align: center;
+        }
+
+        tbody{
+            color: red;
+        }
+    </style>
 </head>
 <body>
-    
+    <h2>مشخصات کارمندان</h2>
+
+    <table>
+        <caption>جدول</caption>
+        <thead>
+            <tr>
+                <th>نام</th>
+                <th colspan="2">ارتباطات</th>
+                <!-- <th>ایمیل</th> -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>حمید رضا</td>
+                <td>09190000000</td>
+                <td>s@s.s</td>
+            </tr>
+            <tr>
+                <td>علی</td>
+                <td>09180000000</td>
+                <td>a@a.a</td>
+            </tr>
+            <tr>
+                <td>حسین</td>
+                <td>09120000000</td>
+                <td>b@b.b</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
